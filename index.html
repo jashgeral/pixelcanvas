@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Draw</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #canvas {
+            border: 2px solid black;
+        }
+    </style>
+    <script type="module" src="canvas.js"></script>
+    <p id="cords"></p>
+    Desenhe no Canvas com o botão direito do mouse.<br>
+    Espaço alterna entre as cores preto, vermelho, verde, azul e branco (borracha).<br>
+    Enter salva a imagem.<br>
+    A tecla C limpa o Canvas.<br><a id="link"></a>
+</body>
+</html>
